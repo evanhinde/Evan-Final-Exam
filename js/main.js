@@ -14,10 +14,9 @@ myImmutableArray.push("new item");
 myImmutableArray.shift();
 
 // Step 5 Remove the second array item from the array
-myImmutableArray.pop(1);
+myImmutableArray.splice(1);
 
 // Step 6: Using array filter, iterate over the array items and remove all items beginning with the letter "J". Store the result in a new, block scoped, mutable variable
-
 
 // Step 7: Create an event listener that fires a callback function when the call to action button in the header is clicked. It should alert "Call me now at 555-555-55555";
 const button = document.querySelector('button');
